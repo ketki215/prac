@@ -1,0 +1,55 @@
+
+
+git config --global user.name "ketki215"
+git config --global user.email "ketkikulkarni152@gmail.com"
+
+mkdir git-new
+cd git-new
+git init
+
+echo "Hello DevOps" > demo1.txt
+git add demo1.txt
+git commit -m "Hello this is DevOps" 
+
+create repositorycopy URL
+generate token
+
+
+git remote add origin URL
+(git add.
+git commit -m "Initial commit")
+git push -u origin master
+
+_______________
+
+git branch Newbranch
+git branch
+git checkout Newbranch
+echo..
+git add..
+git commit..
+git checkout master
+
+_______________
+
+git clone URL
+cd git-clone-new
+echo...
+git add..
+git commit..
+git push origin master
+git pull origin master
+
+
+_______________
+
+docker --version
+docker info
+docker images
+docker pull ubuntu
+docker images
+docker run -d --name myubuntu ubuntu sleep 300
+docker ps
+docker stop myubuntu
+docker rm myubuntu
+docker rmi ubuntu
