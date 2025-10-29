@@ -18,6 +18,8 @@ generate token
 git remote add origin URL
 (git add.
 git commit -m "Initial commit")
+(git pull origin master --rebase
+git push origin master)
 git push -u origin master
 
 _______________
@@ -52,4 +54,5 @@ docker run -d --name myubuntu ubuntu sleep 300
 docker ps
 docker stop myubuntu
 docker rm myubuntu
+
 docker rmi ubuntu
